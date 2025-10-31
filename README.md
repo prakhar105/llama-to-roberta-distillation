@@ -92,8 +92,8 @@ pip install matplotlib seaborn
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/model-distillation.git
-   cd model-distillation
+   git clone https://github.com/<your-username>/llama-to-roberta-distillation.git
+   cd llama-to-roberta-distillation
    ```
 
 2. Open and execute:
