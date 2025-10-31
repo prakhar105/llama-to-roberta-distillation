@@ -1,4 +1,4 @@
-# 🧠 Language Model Distillation
+#  Language Model Distillation
 
 <img src="https://arxiv.org/html/2402.13116v3/x2.png" width="600">
 
@@ -16,8 +16,8 @@ In this project, a **405B-parameter LLaMA 3.1** model acts as the teacher to ann
 Fine-tune a lightweight language model on synthetic annotations produced by a large teacher LLM, demonstrating how domain-specific tasks can be distilled efficiently.
 
 ---
-
-## 🧩 Architecture
+!()[https://github.com/prakhar105/llama-to-roberta-distillation/blob/main/img.png]
+##  Architecture
 
 ```
 ┌──────────────────────────────┐
@@ -41,7 +41,7 @@ Fine-tune a lightweight language model on synthetic annotations produced by a la
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** [`mteb/tweet_sentiment_extraction`](https://huggingface.co/datasets/mteb/tweet_sentiment_extraction)  
 - **Purpose:** Provide raw tweets for teacher LLM annotation.  
@@ -55,7 +55,7 @@ ds = load_dataset("mteb/tweet_sentiment_extraction")
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
 1. **Teacher Annotation**
    - Prompts LLaMA 3.1 (405B) to label tweets as *positive*, *negative*, or *neutral*.
@@ -72,7 +72,7 @@ ds = load_dataset("mteb/tweet_sentiment_extraction")
 
 ---
 
-## 🧰 Environment Setup
+##  Environment Setup
 
 ```bash
 conda create -n distill python=3.10
@@ -88,7 +88,7 @@ pip install matplotlib seaborn
 
 ---
 
-## 🚀 Running the Notebook
+##  Running the Notebook
 
 1. Clone the repository:
    ```bash
@@ -109,7 +109,7 @@ pip install matplotlib seaborn
 
 ---
 
-## 📈 Results
+##  Results
 
 | Model          | Parameters | Accuracy | Relative Size |
 |----------------|-------------|-----------|----------------|
@@ -120,7 +120,7 @@ pip install matplotlib seaborn
 
 ---
 
-## 🧪 Extensions
+##  Extensions
 - Multi-task distillation (classification + generation)
 - Feature-map / attention-pattern alignment
 - Distillation to quantized / LoRA-adapted models
@@ -128,18 +128,18 @@ pip install matplotlib seaborn
 
 ---
 
-## 📚 References
+##  References
 - [A Survey on Knowledge Distillation of Large Language Models (ArXiv 2402.13116)](https://arxiv.org/pdf/2402.13116)
 - [Meta-LLaMA 3.1 (405B)](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B)
 - [RoBERTa-base](https://huggingface.co/FacebookAI/roberta-base)
 
 ---
 
-## 🏷️ License
+##  License
 MIT License — feel free to use, modify, and extend.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Prakhar Awasthi**  
 AI Engineer · Researcher · ML Practitioner
