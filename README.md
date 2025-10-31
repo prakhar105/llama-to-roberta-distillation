@@ -16,7 +16,7 @@ In this project, a **405B-parameter LLaMA 3.1** model acts as the teacher to ann
 Fine-tune a lightweight language model on synthetic annotations produced by a large teacher LLM, demonstrating how domain-specific tasks can be distilled efficiently.
 
 ---
-!()[https://github.com/prakhar105/llama-to-roberta-distillation/blob/main/img.png]
+![](https://github.com/prakhar105/llama-to-roberta-distillation/blob/main/img.png)
 ##  Architecture
 
 ```
